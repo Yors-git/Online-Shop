@@ -1,0 +1,40 @@
+/* CSS Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+body {
+  height: 100%;
+}
+
+@font-face {
+  font-family: Gotham-Bold;
+  src: url(./fonts/Gotham-Bold.otf)
+}
+
+@font-face {
+  font-family: Gotham-Light;
+  src: url(./fonts/Gotham-Light-Regular.otf);
+}
+
+@font-face {
+  font-family: Helvetica-Lt;
+  src: url(./fonts/HelveticaNeue-Light.ttf);
+}
+
+@font-face {
+  font-family: Helvetica-Md;
+  src: url(./fonts/HelveticaNeue-Medium.ttf);
+}
+
+@font-face {
+  font-family: Helvetica-Bd;
+  src: url(./fonts/HelveticaNeue-Bold.ttf);
+}
+
+h1 {
+  font-family: Helvetica-Bd;
+}
