@@ -9,7 +9,7 @@ $Black: #383838;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Gotham-Light", sans-serif;
 }
 
 body {
@@ -50,6 +50,10 @@ body {
 }
 
 .navbar-nav .nav-item {
+  a {
+    font-family: "Helvetica-Md", Helvetica, sans-serif;
+  }
+
   .nav-link {
     color: $Gray;
   }
@@ -73,9 +77,12 @@ body {
   color: white;
 
   h1 {
-    font-family: Gotham-Bold, Helvetica, sans-serif;
+    font-family: "Gotham-Bold", Helvetica, sans-serif;
     font-size: 4.5rem;
     text-align: center;
+  }
+  p {
+    font-family: "Gotham-Light", Helvetica, sans-serif;
   }
   .no-radius {
     border-radius: 0;
@@ -102,6 +109,9 @@ body {
   img, .card {
     max-width: 18rem;
   }
+  h5 {
+    font-family: "Helvetica-Bd", Helvetica, sans-serif;
+  }
   .media {
     max-width: 80%;
   }
@@ -113,6 +123,21 @@ body {
   .carousel-control-next-icon,
   .carousel-control-prev-icon {
     filter: invert(1);
+  }
+}
+
+/* Women Most Popular */
+
+.women-most-pop {
+  max-width: 1200px;
+
+  h3 {
+    border-bottom: 1px solid $Gray;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  h3, h5 {
+    font-family: "Helvetica-Bd", Helvetica, sans-serif;
   }
 }
 

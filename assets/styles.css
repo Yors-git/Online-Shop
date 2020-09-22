@@ -3,7 +3,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Gotham-Light", sans-serif;
 }
 
 body {
@@ -36,6 +36,9 @@ body {
   background-color: #383838;
 }
 
+.navbar-nav .nav-item a {
+  font-family: "Helvetica-Md", Helvetica, sans-serif;
+}
 .navbar-nav .nav-item .nav-link {
   color: #888888;
 }
@@ -57,9 +60,12 @@ body {
   color: white;
 }
 .title-search h1 {
-  font-family: Gotham-Bold, Helvetica, sans-serif;
+  font-family: "Gotham-Bold", Helvetica, sans-serif;
   font-size: 4.5rem;
   text-align: center;
+}
+.title-search p {
+  font-family: "Gotham-Light", Helvetica, sans-serif;
 }
 .title-search .no-radius {
   border-radius: 0;
@@ -84,6 +90,9 @@ body {
 .carousel img, .carousel .card {
   max-width: 18rem;
 }
+.carousel h5 {
+  font-family: "Helvetica-Bd", Helvetica, sans-serif;
+}
 .carousel .media {
   max-width: 80%;
 }
@@ -95,6 +104,19 @@ body {
 .carousel .carousel-control-next-icon,
 .carousel .carousel-control-prev-icon {
   filter: invert(1);
+}
+
+/* Women Most Popular */
+.women-most-pop {
+  max-width: 1200px;
+}
+.women-most-pop h3 {
+  border-bottom: 1px solid #888888;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+.women-most-pop h3, .women-most-pop h5 {
+  font-family: "Helvetica-Bd", Helvetica, sans-serif;
 }
 
 /*# sourceMappingURL=styles.css.map */
