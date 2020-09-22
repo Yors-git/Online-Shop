@@ -1,3 +1,9 @@
+// Variables
+
+$Magenta: #D35266;
+$Gray: #888888;
+$Black: #383838;
+
 /* CSS Reset */
 * {
   box-sizing: border-box;
@@ -11,64 +17,75 @@ body {
 }
 
 /* Fonts */
+
 @font-face {
   font-family: Gotham-Bold;
-  src: url(./fonts/Gotham-Bold.otf);
+  src: url(./fonts/Gotham-Bold.otf)
 }
+
 @font-face {
   font-family: Gotham-Light;
   src: url(./fonts/Gotham-Light-Regular.otf);
 }
+
 @font-face {
   font-family: Helvetica-Lt;
   src: url(./fonts/HelveticaNeue-Light.ttf);
 }
+
 @font-face {
   font-family: Helvetica-Md;
   src: url(./fonts/HelveticaNeue-Medium.ttf);
 }
+
 @font-face {
   font-family: Helvetica-Bd;
   src: url(./fonts/HelveticaNeue-Bold.ttf);
 }
+
 /* Navbar */
+
 .bg-color {
-  background-color: #383838;
+  background-color: $Black;
 }
 
-.navbar-nav .nav-item .nav-link {
-  color: #888888;
-}
-.navbar-nav .nav-item .nav-link:hover {
-  color: #D35266;
-}
+.navbar-nav .nav-item {
+  .nav-link {
+    color: $Gray;
+  }
+  .nav-link:hover {
+    color: $Magenta;
+  }
+}  
 
 /* Title and Search */
+
 .flex {
   display: flex;
 }
 
 .title-search {
-  background-color: #D35266;
+  background-color: $Magenta;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   padding: 3rem 0;
   color: white;
-}
-.title-search h1 {
-  font-family: Gotham-Bold, Helvetica, sans-serif;
-  font-size: 4.5rem;
-  text-align: center;
-}
-.title-search .no-radius {
-  border-radius: 0;
-}
-.title-search .form-control {
-  border: none;
-}
-.title-search .col {
-  margin: 1px 1px;
+
+  h1 {
+    font-family: Gotham-Bold, Helvetica, sans-serif;
+    font-size: 4.5rem;
+    text-align: center;
+  }
+  .no-radius {
+    border-radius: 0;
+  }
+  .form-control {
+    border: none;
+  }
+  .col{
+    margin: 1px 1px;
+  }
 }
 
 .search-btn {
@@ -76,25 +93,27 @@ body {
 }
 
 /* Carrousel */
+
 .carousel {
   padding: 20px;
   max-width: 900px;
   margin: 0 auto;
-}
-.carousel img, .carousel .card {
-  max-width: 18rem;
-}
-.carousel .media {
-  max-width: 80%;
-}
-.carousel .media,
-.carousel .card {
-  border: 1px solid #888888;
-  margin: 0 auto;
-}
-.carousel .carousel-control-next-icon,
-.carousel .carousel-control-prev-icon {
-  filter: invert(1);
+
+  img, .card {
+    max-width: 18rem;
+  }
+  .media {
+    max-width: 80%;
+  }
+  .media,
+  .card {
+    border: 1px solid $Gray;
+    margin: 0 auto;
+  }
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    filter: invert(1);
+  }
 }
 
-/*# sourceMappingURL=styles.css.map */
+
