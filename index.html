@@ -14,8 +14,74 @@
     <title>Shoe Shop</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
-
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark bg-color">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/images/shoe-icon-11024.png" width="30" height="30" class="d-inline-block align-top" alt="brand logo" loading="lazy">
+          Shoes 4 U
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-tag"></i> Offers</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-shoe-prints"></i> Collections
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Women</a>
+                <a class="dropdown-item" href="#">Men</a>
+                <a class="dropdown-item" href="#">Kids</a>
+                <!-- <div class="dropdown-divider"></div> -->
+              </div>
+            </li>
+          </ul>
+          <div>
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-user"></i> Signup / Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i> Cart</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="title-search flex">
+      <h1>SHOES 4 U</h1>
+      <p>The Right Fit For Everyone</p>
+      <form>
+        <div class="d-flex flex-column flex-md-row no-gutters">
+          <div class="col">
+            <select id="inputState" class="form-control no-radius">
+              <option selected>Choose...</option>
+              <option>Women</option>
+              <option>Men</option>
+              <option>Kids</option>
+            </select>
+          </div>
+          <div class="col">
+            <input type="text" class="form-control no-radius" placeholder="Size">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control no-radius" placeholder="Style">
+          </div>
+          <div class="col">
+            <button type="submit" class="btn btn-dark search-btn no-radius">Search</button>
+          </div>
+        </div>
+      </form>
+    </section>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

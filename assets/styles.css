@@ -10,6 +10,8 @@ body {
   height: 100%;
 }
 
+/* Fonts */
+
 @font-face {
   font-family: Gotham-Bold;
   src: url(./fonts/Gotham-Bold.otf)
@@ -35,6 +37,54 @@ body {
   src: url(./fonts/HelveticaNeue-Bold.ttf);
 }
 
-h1 {
-  font-family: Helvetica-Bd;
+/* Navbar */
+
+.bg-color {
+  background-color: #383838;
 }
+
+.navbar-nav .nav-item .nav-link {
+  color: #888888;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #D35266;
+}
+
+/* Title and Search */
+
+.flex {
+  display: flex;
+}
+
+.title-search {
+  background-color: #D35266;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3rem 0;
+  color: white;
+}
+
+.title-search h1 {
+  font-family: Gotham-Bold, Helvetica, sans-serif;
+  font-size: 4.5rem;
+}
+
+.title-search .no-radius {
+  border-radius: 0;
+}
+
+.title-search .form-control {
+  border: none;
+}
+
+.title-search .col{
+  margin: 1px 1px;
+}
+
+.search-btn {
+  width: 100%;
+}
+
+
