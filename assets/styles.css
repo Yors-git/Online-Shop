@@ -106,17 +106,73 @@ body {
   filter: invert(1);
 }
 
-/* Women Most Popular */
-.women-most-pop {
+/* Most Popular */
+.most-pop {
   max-width: 1200px;
 }
-.women-most-pop h3 {
+.most-pop h3 {
   border-bottom: 1px solid #888888;
   padding-bottom: 5px;
   margin-bottom: 15px;
 }
-.women-most-pop h3, .women-most-pop h5 {
+.most-pop h3, .most-pop h5 {
   font-family: "Helvetica-Bd", Helvetica, sans-serif;
+}
+
+/* Footer */
+footer {
+  background-color: #383838;
+  padding: 50px;
+  flex-direction: column;
+  color: #888888;
+}
+footer h5 {
+  font-family: "Helvetica-Md", Helvetica, sans-serif;
+  color: white;
+}
+footer .brand {
+  flex: 1 0 50%;
+  padding: 0 20px;
+}
+footer .locations {
+  flex: 1 0 50%;
+  padding: 20px 20px 0 20px;
+  border-top: 1px solid #888888;
+}
+footer .locations ul {
+  list-style: none;
+  flex-direction: column;
+}
+footer .locations a {
+  color: #888888;
+  line-height: 1;
+}
+footer .locations a:hover {
+  color: #D35266;
+}
+
+@media screen and (min-width: 768px) {
+  footer {
+    flex-direction: row;
+  }
+  footer .locations {
+    padding: 0 20px;
+    border-left: 1px solid #888888;
+    border-top: 0;
+  }
+  footer .locations ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  footer .locations li {
+    padding: 0 10px;
+    margin: 5px 0;
+    border-right: 1px solid #D35266;
+    line-height: 1;
+  }
+  footer .locations li:nth-last-child(1) {
+    border-right: none;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
