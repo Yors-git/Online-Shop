@@ -304,8 +304,12 @@ footer {
   }
 }
 
-input[type=range].size-range {
+.cursor-pointer {
+  cursor: pointer;
   width: 100%;
+}
+
+input[type=range].size-range {
   margin: 5.8px 0;
   background-color: transparent;
   -webkit-appearance: none;
@@ -316,12 +320,9 @@ input[type=range].size-range:focus {
 }
 
 input[type=range].size-range::-webkit-slider-runnable-track {
-  background: #fff;
   border: 0.2px solid #010101;
   border-radius: 1.3px;
-  width: 100%;
   height: 8.4px;
-  cursor: pointer;
 }
 
 input[type=range].size-range::-webkit-slider-thumb {
@@ -331,21 +332,13 @@ input[type=range].size-range::-webkit-slider-thumb {
   background: #d35266;
   border: 1px solid #000;
   border-radius: 3px;
-  cursor: pointer;
   -webkit-appearance: none;
 }
 
-input[type=range].size-range:focus::-webkit-slider-runnable-track {
-  background: #fff;
-}
-
 input[type=range].size-range::-moz-range-track {
-  background: #fff;
   border: 0.2px solid #010101;
   border-radius: 1.3px;
-  width: 100%;
   height: 8.4px;
-  cursor: pointer;
 }
 
 input[type=range].size-range::-moz-range-thumb {
@@ -354,7 +347,6 @@ input[type=range].size-range::-moz-range-thumb {
   background: #d35266;
   border: 1px solid #000;
   border-radius: 3px;
-  cursor: pointer;
 }
 
 input[type=range].size-range::-ms-track {
@@ -362,9 +354,7 @@ input[type=range].size-range::-ms-track {
   border-color: transparent;
   border-width: 6.8px 0;
   color: transparent;
-  width: 100%;
   height: 8.4px;
-  cursor: pointer;
 }
 
 input[type=range].size-range::-ms-fill-lower {
@@ -374,7 +364,6 @@ input[type=range].size-range::-ms-fill-lower {
 }
 
 input[type=range].size-range::-ms-fill-upper {
-  background: #fff;
   border: 0.2px solid #010101;
   border-radius: 2.6px;
 }
@@ -385,16 +374,7 @@ input[type=range].size-range::-ms-thumb {
   background: #d35266;
   border: 1px solid #000;
   border-radius: 3px;
-  cursor: pointer;
   margin-top: 0;
-}
-
-input[type=range].size-range:focus::-ms-fill-lower {
-  background: #fff;
-}
-
-input[type=range].size-range:focus::-ms-fill-upper {
-  background: #fff;
 }
 
 @supports (-ms-ime-align:auto) {
