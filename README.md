@@ -19,7 +19,7 @@ One other thing I tried and proved to be very useful was the use of SASS preproc
 
 ## Authors
 
-👤 **Author1**
+👤 **Jorge Torres**
 
 - GitHub: [@Yors-git](https://github.com/Yors-git)
 - Twitter: [@Yors_82](https://twitter.com/Yors_82)
