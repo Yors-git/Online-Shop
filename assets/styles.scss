@@ -180,15 +180,14 @@ footer {
     flex: 1 0 50%;
     padding: 20px 20px 0 20px;
     border-top: 1px solid $Gray;
-  }
 
-  .locations ul {
-    list-style: none;
-    flex-direction: column;
-  }
-
-  .locations a:hover {
-    color: $Magenta;
+    ul {
+      list-style: none;
+      flex-direction: column;
+    }
+    a:hover {
+      color: $Magenta;
+    }
   }
 }
 
@@ -200,22 +199,20 @@ footer {
       padding: 0 20px;
       border-left: 1px solid $Gray;
       border-top: 0;
-    }
 
-    .locations ul {
-      flex-direction: row;
-      flex-wrap: wrap;
-    }
-
-    .locations li {
-      padding: 0 10px;
-      margin: 5px 0;
-      border-right: 1px solid $Magenta;
-      line-height: 1;
-    }
-
-    .locations li:nth-last-child(1) {
-      border-right: none;
+      ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      li {
+        padding: 0 10px;
+        margin: 5px 0;
+        border-right: 1px solid $Magenta;
+        line-height: 1;
+      }
+      li:nth-last-child(1) {
+        border-right: none;
+      }
     }
   }
 }
