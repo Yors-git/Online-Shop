@@ -80,6 +80,12 @@ footer .locations a {
 }
 .title-search .col {
   margin: 1px 1px;
+  min-width: 290px;
+}
+@media screen and (min-width: 768px) {
+  .title-search .col {
+    min-width: 100px;
+  }
 }
 
 .search-btn {
