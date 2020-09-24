@@ -104,6 +104,7 @@ footer .locations a {
     margin: 1px 1px;
     min-width: 290px;
   }
+
   @media screen and (min-width: 768px) {
     .col {
       min-width: 100px;
@@ -167,6 +168,13 @@ footer h5 {
   h5 {
     font-family: "Helvetica-Bd", Helvetica, sans-serif;
   }
+
+  .col img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    object-position: center 60%;
+  }
 }
 
 /* Footer */
@@ -191,6 +199,7 @@ footer {
       list-style: none;
       flex-direction: column;
     }
+
     a:hover {
       color: $Magenta;
     }
@@ -210,12 +219,14 @@ footer {
         flex-direction: row;
         flex-wrap: wrap;
       }
+
       li {
         padding: 0 10px;
         margin: 5px 0;
         border-right: 1px solid $Magenta;
         line-height: 1;
       }
+
       li:nth-last-child(1) {
         border-right: none;
       }
@@ -281,7 +292,6 @@ footer {
   outline: none;
 }
 
-
 .search-params {
   justify-content: space-around;
   flex-direction: column;
@@ -289,8 +299,8 @@ footer {
 
 @media screen and (min-width: 500px) {
   .search-params {
-   flex-direction: row;
-  } 
+    flex-direction: row;
+  }
 }
 
 @media screen and (min-width: 768px) {
