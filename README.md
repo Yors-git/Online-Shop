@@ -23,7 +23,7 @@ One other thing I tried and proved to be very useful was the use of SASS preproc
 
 - GitHub: [@Yors-git](https://github.com/Yors-git)
 - Twitter: [@Yors_82](https://twitter.com/Yors_82)
-- Linkedin: Jorge Torres[linkedin](https://www.linkedin.com/in/jorge-torres-8b87571a8/)
+- Linkedin: Jorge Torres[linkedin](https://www.linkedin.com/in/jtbribiesca/)
 
 ## 🤝 Contributing
 
